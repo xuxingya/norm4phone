@@ -8,10 +8,10 @@ from typing import List, Union, Any
 
 class PhoneNormalizer:
 
-    def __init__(self, default=38):
+    def __init__(self, default_country='China'):
         # default phone country is set to China(38)
         self.iso3166_data = json.load(open('iso3166Data.json', 'rb'))
-        self.default = default
+        self.default = next(i for i, v in enumerate(self.iso3166_data) if v['country_name']==default_country)
 
     def get_iso3166(self, country: str) -> dict:
         if len(country) == 0:
@@ -127,7 +127,8 @@ class PhoneNormalizer:
                     iso3166 = {}
 
         elif len(format_phone) in iso3166['phone_number_lengths']:
-            format_phone = '86' + format_phone
+            country_code = self.iso3166_data[self.default]['country_code']
+            format_phone = country_code + format_phone
 
         validate_result = self.validate_phone_iso3166(format_phone, iso3166, allow_landline)
 
@@ -138,13 +139,13 @@ class PhoneNormalizer:
 
 
 if __name__ == '__main__':
-    PhoneNormalizer = PhoneNormalizer()
-    assert PhoneNormalizer.normalize_phone_num('+8613314672720')==['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('+86 13314672720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('13314672720')==['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('86 13314672720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('(86) 13314672720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('(+86) 13314672720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('+(86) 13314672720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('+86 133-146-72720') == ['+8613314672720', 'CHN']
-    assert PhoneNormalizer.normalize_phone_num('1 6479392750') == ['+16479392750', 'CAN']
+    pn = PhoneNormalizer(default_country='China')
+    assert pn.normalize_phone_num('+8613314672720')==['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('+86 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('13314672720')==['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('86 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('(86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('(+86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('+(86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('+86 133-146-72720') == ['+8613314672720', 'CHN']
+    assert pn.normalize_phone_num('1 6479392750') == ['+16479392750', 'CAN']
