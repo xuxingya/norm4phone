@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56c3fb31-4a98-4830-9a33-c5f224e7b602" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../norm4phone/norm4phone/phone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#32#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../norm4phone/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../norm4phone/norm4phone/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../norm4phone/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pnn</find>
+      <find>normalize_phone_num</find>
+      <find>default_country</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PhoneNormalizer</replace>
+      <replace>parse</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/iso3166Data.json" />
+        <option value="$PROJECT_DIR$/phone.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/../norm4phone/phone.py" />
+        <option value="$PROJECT_DIR$/../norm4phone/norm4phone/phone.py" />
+        <option value="$PROJECT_DIR$/../norm4phone/README.md" />
+        <option value="$PROJECT_DIR$/../norm4phone/setup.py" />
+        <option value="$PROJECT_DIR$/../norm4phone/norm4phone/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Phone-Normalizer.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="206" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="norm4phone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="norm4phone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="norm4phone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="norm4phone" type="462c0819:PsiDirectoryNode" />
+              <item name="norm4phone" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../norm4phone/norm4phone" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="norm4phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.phone" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56c3fb31-4a98-4830-9a33-c5f224e7b602" name="Default Changelist" comment="" />
+      <created>1577088821403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577088821403</updated>
+      <workItem from="1577088826560" duration="1854000" />
+      <workItem from="1581693827257" duration="6011000" />
+    </task>
+    <task id="LOCAL-00001" summary="first release">
+      <created>1577089351404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577089351404</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix default country">
+      <created>1577090679417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577090679418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7865000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29685265" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31445783" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first release" />
+    <MESSAGE value="fix default country" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix default country" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Phone_Normalizer$phone.coverage" NAME="phone Coverage Results" MODIFIED="1577089340404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../norm4phone/norm4phone/iso3166Data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1695" column="6" lean-forward="true" selection-start-line="1695" selection-start-column="6" selection-end-line="1695" selection-end-column="6" />
+          <folding>
+            <element signature="e#5#2550#0" />
+            <element signature="e#125#2515#0" />
+            <element signature="e#2553#2721#0" />
+            <element signature="e#2724#2882#0" />
+            <element signature="e#2885#3039#0" />
+            <element signature="e#3042#3208#0" />
+            <element signature="e#3211#3379#0" />
+            <element signature="e#3382#3537#0" />
+            <element signature="e#3540#3705#0" />
+            <element signature="e#3709#3877#0" />
+            <element signature="e#3880#4047#0" />
+            <element signature="e#4050#4220#0" />
+            <element signature="e#4224#4400#0" />
+            <element signature="e#4406#4575#0" />
+            <element signature="e#4578#4734#0" />
+            <element signature="e#4737#4908#0" />
+            <element signature="e#4911#5084#0" />
+            <element signature="e#5087#5248#0" />
+            <element signature="e#5251#5413#0" />
+            <element signature="e#5416#5569#0" />
+            <element signature="e#5572#5737#0" />
+            <element signature="e#5740#5905#0" />
+            <element signature="e#5908#6098#0" />
+            <element signature="e#6101#6256#0" />
+            <element signature="e#6259#6415#0" />
+            <element signature="e#6418#6588#0" />
+            <element signature="e#6592#6766#0" />
+            <element signature="e#6769#6923#0" />
+            <element signature="e#6927#7100#0" />
+            <element signature="e#7103#7258#0" />
+            <element signature="e#7261#7948#0" />
+            <element signature="e#7375#7909#0" />
+            <element signature="e#7951#8108#0" />
+            <element signature="e#8111#8281#0" />
+            <element signature="e#8284#8439#0" />
+            <element signature="e#8443#8630#0" />
+            <element signature="e#8633#8805#0" />
+            <element signature="e#8812#9239#0" />
+            <element signature="e#8925#9204#0" />
+            <element signature="e#9243#9401#0" />
+            <element signature="e#9404#9556#0" />
+            <element signature="e#9559#9749#0" />
+            <element signature="e#9752#9938#0" />
+            <element signature="e#9941#10097#0" />
+            <element signature="e#10100#10290#0" />
+            <element signature="e#10293#10446#0" />
+            <element signature="e#10449#10614#0" />
+            <element signature="e#10617#10773#0" />
+            <element signature="e#10776#10937#0" />
+            <element signature="e#10940#11103#0" />
+            <element signature="e#11106#11279#0" />
+            <element signature="e#11282#11433#0" />
+            <element signature="e#11437#11600#0" />
+            <element signature="e#11603#11757#0" />
+            <element signature="e#11760#11927#0" />
+            <element signature="e#11930#12102#0" />
+            <element signature="e#12105#12262#0" />
+            <element signature="e#12265#12422#0" />
+            <element signature="e#12425#12675#0" />
+            <element signature="e#12678#12859#0" />
+            <element signature="e#12862#13027#0" />
+            <element signature="e#13030#13185#0" />
+            <element signature="e#13188#13344#0" />
+            <element signature="e#13347#13512#0" />
+            <element signature="e#13516#13673#0" />
+            <element signature="e#13676#13852#0" />
+            <element signature="e#13855#14011#0" />
+            <element signature="e#14014#14178#0" />
+            <element signature="e#14181#14338#0" />
+            <element signature="e#14341#14521#0" />
+            <element signature="e#14524#14682#0" />
+            <element signature="e#14685#14843#0" />
+            <element signature="e#14846#15022#0" />
+            <element signature="e#15025#15191#0" />
+            <element signature="e#15194#15356#0" />
+            <element signature="e#15359#15519#0" />
+            <element signature="e#15523#15681#0" />
+            <element signature="e#15684#15841#0" />
+            <element signature="e#15844#15998#0" />
+            <element signature="e#16001#16161#0" />
+            <element signature="e#16164#16323#0" />
+            <element signature="e#16326#16497#0" />
+            <element signature="e#16500#16674#0" />
+            <element signature="e#16677#16831#0" />
+            <element signature="e#16834#16990#0" />
+            <element signature="e#16993#17160#0" />
+            <element signature="e#17163#17330#0" />
+            <element signature="e#17333#17496#0" />
+            <element signature="e#17499#17652#0" />
+            <element signature="e#17655#17809#0" />
+            <element signature="e#17812#18062#0" />
+            <element signature="e#18066#18237#0" />
+            <element signature="e#18240#18398#0" />
+            <element signature="e#18401#18559#0" />
+            <element signature="e#18562#18735#0" />
+            <element signature="e#18738#18906#0" />
+            <element signature="e#18910#19078#0" />
+            <element signature="e#19082#19280#0" />
+            <element signature="e#19283#19456#0" />
+            <element signature="e#19459#19612#0" />
+            <element signature="e#19615#19780#0" />
+            <element signature="e#19783#19937#0" />
+            <element signature="e#19940#20096#0" />
+            <element signature="e#20099#20255#0" />
+            <element signature="e#20259#20413#0" />
+            <element signature="e#20416#20582#0" />
+            <element signature="e#20585#20755#0" />
+            <element signature="e#20758#20911#0" />
+            <element signature="e#20914#21077#0" />
+            <element signature="e#21080#21259#0" />
+            <element signature="e#21262#21424#0" />
+            <element signature="e#21427#21597#0" />
+            <element signature="e#21600#21769#0" />
+            <element signature="e#21772#21936#0" />
+            <element signature="e#21939#22121#0" />
+            <element signature="e#22124#22287#0" />
+            <element signature="e#22290#22463#0" />
+            <element signature="e#22466#22636#0" />
+            <element signature="e#22639#22799#0" />
+            <element signature="e#22802#22963#0" />
+            <element signature="e#22966#23122#0" />
+            <element signature="e#23125#23285#0" />
+            <element signature="e#23288#23445#0" />
+            <element signature="e#23448#23606#0" />
+            <element signature="e#23609#23763#0" />
+            <element signature="e#23766#23919#0" />
+            <element signature="e#23923#24083#0" />
+            <element signature="e#24086#24248#0" />
+            <element signature="e#24251#24424#0" />
+            <element signature="e#24427#24585#0" />
+            <element signature="e#24588#24749#0" />
+            <element signature="e#24752#24909#0" />
+            <element signature="e#24912#25073#0" />
+            <element signature="e#25076#25266#0" />
+            <element signature="e#25269#25426#0" />
+            <element signature="e#25429#25587#0" />
+            <element signature="e#25590#25751#0" />
+            <element signature="e#25754#25912#0" />
+            <element signature="e#25915#26081#0" />
+            <element signature="e#26084#26257#0" />
+            <element signature="e#26260#26418#0" />
+            <element signature="e#26421#26576#0" />
+            <element signature="e#26579#26738#0" />
+            <element signature="e#26741#26901#0" />
+            <element signature="e#26904#27059#0" />
+            <element signature="e#27062#27229#0" />
+            <element signature="e#27232#27399#0" />
+            <element signature="e#27402#27559#0" />
+            <element signature="e#27562#27736#0" />
+            <element signature="e#27739#27910#0" />
+            <element signature="e#27913#28066#0" />
+            <element signature="e#28069#28236#0" />
+            <element signature="e#28239#28414#0" />
+            <element signature="e#28417#28574#0" />
+            <element signature="e#28577#28726#0" />
+            <element signature="e#28729#28887#0" />
+            <element signature="e#28890#29048#0" />
+            <element signature="e#29051#29212#0" />
+            <element signature="e#29215#29370#0" />
+            <element signature="e#29373#29553#0" />
+            <element signature="e#29556#29708#0" />
+            <element signature="e#29711#29867#0" />
+            <element signature="e#29870#30024#0" />
+            <element signature="e#30028#30187#0" />
+            <element signature="e#30190#30349#0" />
+            <element signature="e#30352#30502#0" />
+            <element signature="e#30505#30669#0" />
+            <element signature="e#30672#30845#0" />
+            <element signature="e#30848#31015#0" />
+            <element signature="e#31019#31175#0" />
+            <element signature="e#31178#31334#0" />
+            <element signature="e#31337#31516#0" />
+            <element signature="e#31519#31683#0" />
+            <element signature="e#31686#31854#0" />
+            <element signature="e#31857#32021#0" />
+            <element signature="e#32024#32178#0" />
+            <element signature="e#32181#32353#0" />
+            <element signature="e#32356#32510#0" />
+            <element signature="e#32513#32673#0" />
+            <element signature="e#32676#32829#0" />
+            <element signature="e#32832#32991#0" />
+            <element signature="e#32994#33149#0" />
+            <element signature="e#33152#33313#0" />
+            <element signature="e#33317#33474#0" />
+            <element signature="e#33477#33643#0" />
+            <element signature="e#33646#33814#0" />
+            <element signature="e#33817#34056#0" />
+            <element signature="e#34059#34218#0" />
+            <element signature="e#34221#34385#0" />
+            <element signature="e#34388#34543#0" />
+            <element signature="e#34546#34707#0" />
+            <element signature="e#34710#34884#0" />
+            <element signature="e#34887#35044#0" />
+            <element signature="e#35047#35223#0" />
+            <element signature="e#35226#35392#0" />
+            <element signature="e#35395#35551#0" />
+            <element signature="e#35554#35730#0" />
+            <element signature="e#35733#35886#0" />
+            <element signature="e#35890#36048#0" />
+            <element signature="e#36051#36219#0" />
+            <element signature="e#36223#36413#0" />
+            <element signature="e#36416#36578#0" />
+            <element signature="e#36581#36733#0" />
+            <element signature="e#36736#36901#0" />
+            <element signature="e#36904#37062#0" />
+            <element signature="e#37065#37217#0" />
+            <element signature="e#37220#37380#0" />
+            <element signature="e#37383#37542#0" />
+            <element signature="e#37545#37695#0" />
+            <element signature="e#37698#37866#0" />
+            <element signature="e#37869#38039#0" />
+            <element signature="e#38042#38196#0" />
+            <element signature="e#38199#38350#0" />
+            <element signature="e#38353#38507#0" />
+            <element signature="e#38510#38691#0" />
+            <element signature="e#38694#38848#0" />
+            <element signature="e#38851#39048#0" />
+            <element signature="e#39052#39207#0" />
+            <element signature="e#39210#39368#0" />
+            <element signature="e#39372#39553#0" />
+            <element signature="e#39556#39737#0" />
+            <element signature="e#39740#39912#0" />
+            <element signature="e#39915#40084#0" />
+            <element signature="e#40087#40265#0" />
+            <element signature="e#40268#40428#0" />
+            <element signature="e#40431#40593#0" />
+            <element signature="e#40596#40749#0" />
+            <element signature="e#40752#40905#0" />
+            <element signature="e#40908#41102#0" />
+            <element signature="e#41105#41259#0" />
+            <element signature="e#41262#41431#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../norm4phone/norm4phone/phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#32#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../norm4phone/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../norm4phone/norm4phone/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../norm4phone/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

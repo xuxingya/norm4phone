@@ -1,16 +1,18 @@
 """
 Phone Number Normalizer
 """
+import os
 import json
 import re
 from typing import List, Union, Any
 
+dirname = os.path.dirname(__file__)
 
 class PhoneNormalizer:
 
     def __init__(self, default_country='China'):
         # default phone country is set to China(38)
-        self.iso3166_data = json.load(open('iso3166Data.json', 'rb'))
+        self.iso3166_data = json.load(open(os.path.join(dirname,'iso3166Data.json'), 'rb'))
         self.default = next(i for i, v in enumerate(self.iso3166_data) if v['country_name']==default_country)
 
     def get_iso3166(self, country: str) -> dict:
@@ -83,7 +85,7 @@ class PhoneNormalizer:
 
         return is_length_valid and (allow_landline or is_begin_with_valid)
 
-    def normalize_phone_num(self, phone: str, country='', allow_landline=False) -> List[str]:
+    def parse(self, phone: str, country='', allow_landline=False) -> List[str]:
         result = []
         format_phone = phone.strip()
         format_country = country.strip()
@@ -140,12 +142,12 @@ class PhoneNormalizer:
 
 if __name__ == '__main__':
     pn = PhoneNormalizer(default_country='China')
-    assert pn.normalize_phone_num('+8613314672720')==['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('+86 13314672720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('13314672720')==['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('86 13314672720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('(86) 13314672720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('(+86) 13314672720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('+(86) 13314672720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('+86 133-146-72720') == ['+8613314672720', 'CHN']
-    assert pn.normalize_phone_num('1 6479392750') == ['+16479392750', 'CAN']
+    assert pn.parse('+8613314672720')==['+8613314672720', 'CHN']
+    assert pn.parse('+86 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.parse('13314672720')==['+8613314672720', 'CHN']
+    assert pn.parse('86 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.parse('(86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.parse('(+86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.parse('+(86) 13314672720') == ['+8613314672720', 'CHN']
+    assert pn.parse('+86 133-146-72720') == ['+8613314672720', 'CHN']
+    assert pn.parse('1 6479392750') == ['+16479392750', 'CAN']
